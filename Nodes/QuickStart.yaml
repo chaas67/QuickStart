@@ -1,0 +1,104 @@
+Name: QuickStart
+Id: g=f9c686bd5782ecf1c83dfee1b1c547de
+Type: ProjectFolder
+Children:
+- Name: PasswordPolicy
+  Id: g=2b47e587f3de00f330400a015dc5368c
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=fb2e2c66f2c11e85595d5084c3062d59
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=9c819eb26c48e5d58378dafd37bf7b85
+    Type: PropertyType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=47060703b6d98a8f2cae269119a44479
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=7683c447534cc4ca4dd310f6e503f287
+    Type: PropertyType
+    DataType: Byte
+    Value: 8
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: Authentication
+  Id: g=eaaafa853fa72eeb8e146d0922ba3a0b
+  Type: PropertyGroup
+  Children:
+  - Name: AuthenticationMode
+    Id: g=0d10495421707d5d64f1c853e902659f
+    Type: PropertyType
+    DataType: AuthenticationMode
+    Value: 0
+  - Name: DefaultUserFolder
+    Id: g=aa935eb42d5abee4bc0854af1ba3c250
+    Type: NodePointer
+    DataType: NodeId
+    ReferenceType: HasProperty
+    Value: {"IdType":2,"Id":"46006ab25250e8c79ef25ac18fe740c2","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=0dea16d02644b6b266b187e84b669406
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":61}
+- Name: AlarmConfiguration
+  Id: g=2689fcea91494b19fc21e433f3acb534
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Id: g=52fcf93cdfdf506a7a9896bf88c06bc1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: false
+- Name: Localization
+  Id: g=062153e929237e299a603aa7bff8d033
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=b77bc23e414f94ba403846d2863df095
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=bd52aaa9ab45d58c3d0dd8688a45a6a9
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: RecipeSchema1
+  Id: g=60dae247e4d44ac95d169e6ca6372305
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"5130edd7ebee1c88bf8b401e656da092","Namespace":7}
+  Children:
+  - Name: Kind
+    Id: g=bfe9e59439c7cd5f0447a32a51214f48
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"5130edd7ebee1c88bf8b401e656da092","Namespace":7}

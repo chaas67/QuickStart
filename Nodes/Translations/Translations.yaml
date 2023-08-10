@@ -1,0 +1,54 @@
+Name: Translations
+Id: g=18c5a5ac1d2551ae205f5f735ee53e36
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=410f4a9af47bd9829e4580801602edd8
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [37,2],
+    "Body": [
+     "","en-US",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "Confirm All","Confirm All",
+     "SourceName","Source Variable",
+     "Timestamp","Timestamp",
+     "Name","Name",
+     "Message","Message",
+     "Active","Active",
+     "Acked","Acked",
+     "Confirmed","Confirmed",
+     "Severity","Severity",
+     "Refresh","Refresh",
+     "From","From",
+     "To","To",
+     "RecipeControllerRecipeLoaded","Recipe loaded",
+     "RecipeControllerCreatedAndSaved","created and saved",
+     "RecipeControllerSaved","saved",
+     "RecipeControllerDeleted","deleted",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty",
+     "RecipeControllerRecipe","Recipe",
+     "RecipeControllerRecipeApplied","Recipe applied",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set",
+     "RecipesEditorRecipeNotFound","Recipe not found",
+     "RecipesEditorNotARecipe","is not a recipe",
+     "RecipesEditorStoreOfSchema","Store of schema",
+     "RecipesEditorNotSet","is not set",
+     "RecipesEditorNotFound","not found",
+     "RecipesEditorStore","Store",
+     "RecipesEditorNotAStore","is not a store",
+     "RecipesEditorEditModelOfSchema","EditModel of schema",
+     "Save","Save",
+     "Delete","Delete",
+     "Load","Load",
+     "Apply","Apply"
+    ]
+   }

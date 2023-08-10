@@ -1,0 +1,673 @@
+Name: UI
+Id: g=ed1351e0e01ffc8182b74e8d68c1c200
+Type: UICategoryFolder
+Children:
+- Name: DarkStyleSheet
+  Id: g=c552e986fd4c64513d254a3ecdb4a234
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Id: g=563f5ca42fe2629acdebf130c8b8738b
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=57e143c22953dd76b3319c2d92e982da
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=07b9fa8313728efbc93d44c5f2688364
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=6df0e003b1f2dcaa896a9c64161779d4
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Id: g=12b3d5fd542e27511668255afa152107
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Id: g=413a2506aa0e3ec4bdbd3737d8a48e79
+    Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Id: g=1611979c5cea4cfacf316744929e5941
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: ChartStyle
+    Id: g=703357cf8b6aa42a0019f4de185ea749
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=797642faf1e5382d37e96fbb1fe444a7
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=1066d47a6a2b85dde6ef1a638b74b4a3
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=2370f6a7fd248f98d5021cb8963e5f9a
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Id: g=6db02179f01379d659c25f9ad6ccb857
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=e35076d7f3b1033ab77e5da0b32b5b05
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=a3ac8b1b9683f385db20ba1cf2ca90af
+    Type: HistogramChartStyle
+  - Name: WindowColor
+    Id: g=ed6f1cecf7c1e2aeac14bc30ce6f84db
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3b3b3b"
+  - Name: TextColor
+    Id: g=850948dd9573c7716b0fe14dfe091583
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+- Name: DefautlStyleSheet
+  Id: g=f9c75b52ad0cd57fa506c378c90a8077
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Id: g=a37ae0b62abe9cf94c9c5f0b78a743ec
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=8f0a95eae70fba92aec9526ff6156da7
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=9890c127c404f3169f3f532afa040d1e
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=3e6fa0ad496e64fd452312c6c956001e
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Id: g=b7183f61545e1e56c2d65944a2e02a5f
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Id: g=066b682ec80d1bb5c0ab8ab264f92402
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=cb7ad8a701a1d8ee914e21ab11425ce3
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=ef3c66a5154323b08bb6029a37578148
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=9a8ec6cfb864dbd12304eed0199c87a6
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=35129332056c4cc1921e8d3958a0eb56
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Id: g=f941fce0b410845070000ebe6a7e5a98
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=c4811267d4e960fffb18dc3a6b32444f
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=2c058e72a2a8dfee1dffe1e344274a55
+    Type: HistogramChartStyle
+- Name: NativePresentationEngine
+  Id: g=4068b4e06f512ba05518ce7f554f3c4e
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Id: g=01ecb325f9ca8b06bac116564ba6b4e5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Id: g=cb0643c367bc3aaac9642140ed2084cd
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"58f1fd3a671cea5e754a50d53fdafd9d","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=5bac97f3ca1340511c3602b1dde97f0a
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":12,"Namespace":3}
+  - Name: StyleSheet
+    Id: g=46b41682ee609feaec9262e807852adf
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"c552e986fd4c64513d254a3ecdb4a234","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=67364f7ee27bec88aab0064358495cd8
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":447,"Namespace":3}
+    - Name: ConditionalConverter1
+      Id: g=92061378a455d2de2511ecb0185de7a7
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=98daad1ca29d136dddc17dad76fbb998
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Value: false
+        Children:
+        - Name: DynamicLink
+          Id: g=f2619656cfec2c41faa79e41faaf85dd
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../Model/ToggleStyleSheet"
+      - Name: TrueValue
+        Id: g=d78e70cff014333d7fca9ca9a8e3e266
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        Value: {"IdType":2,"Id":"c552e986fd4c64513d254a3ecdb4a234","Namespace":7}
+      - Name: FalseValue
+        Id: g=d2ea124bd66a705f0b45b1d688155351
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        Value: {"IdType":2,"Id":"f9c75b52ad0cd57fa506c378c90a8077","Namespace":7}
+  - Name: StartingUser
+    Id: g=597736d2e18488b598940c7d4f601b46
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"Id":46,"Namespace":1}
+    Children:
+    - Name: Kind
+      Id: g=6a52e0fdc8d765261dca4b3076e8f364
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":14,"Namespace":1}
+  - Name: Sessions
+    Id: g=4ceeb4e862b674cddacd7f8f833bca77
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=58f1fd3a671cea5e754a50d53fdafd9d
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=c2c60db1f8cedecbd8502f378db4c779
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1124.0
+  - Name: Height
+    Id: g=c1be78e625fd3304d2fd6ed3a56bbba7
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 772.0
+  - Name: FullScreen
+    Id: g=7c523025b34adcd93862e50567e76362
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: false
+  - Name: AlwaysOnTop
+    Id: g=c37f657c51bb9f41d270ab6d90323b4a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: Caption
+    Id: g=f20e51ac5d5c117fb9aeb89e54ef454f
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "Quick start application"
+  - Name: Image1
+    Id: g=c87d05fa5a6b81e71469686e246a8fff
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=d0fbb465eadcb71e9e33c8fb246d30ef
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=7;%PROJECTDIR%/ra_logo.svg"
+    - Name: LeftMargin
+      Id: g=fefe15c7025eea796f6bd2000e482057
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 235.0
+    - Name: TopMargin
+      Id: g=376d559171139156133b916fe5522505
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: HorizontalAlignment
+      Id: g=88e7541d9b78a667f818beac84d6b16d
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: Width
+      Id: g=b7a12ca3e74f39dfeaa7499d5cd6b5d0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: RightMargin
+      Id: g=7ee7c899a4ce57a5f36ed4197a80e6bb
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+  - Name: NavigationPanel1
+    Id: g=153dfa2aef5636c44d194521494e5555
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Id: g=41dba25525f9cd97ed4681c6be7b6849
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Id: g=d7bb70a24c0c5884e393f1555f0dafcd
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=41a6b4006ff38cacd5469c089b1296ce
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=896c447002b1db6b3c93e65573acbc0d
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"7d649e1011a4b984d1b3dcc0f5ff8f11","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=9151e8b0e765e5d90b888ee63f9f3dee
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel2
+        Id: g=5b0212a8ce207d7612217f2f8be01b59
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=a735e1e96f440b993b0a69be7ed0b0f1
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=7761a3d2f6a207a05900e27a592452b4
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"113234cdf66979de0250efd388d3d195","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=9c797a7151c847a6fba5be05c9cd5f82
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel3
+        Id: g=54f86a88c1f8740a8d36521974681dbf
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=b692d17288035b0ecb441f5c2ec9e1da
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=e0270379292af355f3f328330532efd9
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"212d0dd6797713a9dcc5a07368392a38","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=c901ea31fd263ffcfabc3ec21977411a
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel4
+        Id: g=bd89da334fab72b6d467bea50791376d
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=1ce05545c1a94d77073399519544128c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=27a108633d131e985e1fe514191851ca
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"ba9862e18ef0fec13d71402ec6b14943","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=47c9229e6cdd03d5a39ba481e648ad19
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel5
+        Id: g=1f27e200650d1caa707a3aa6a3dee3d6
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=c8a9e14d071d49192b8d19cf4adf8219
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=120f4e5e9be605913e6e42017b04ec0b
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"99247de21f2da4b32c33b9229a4a02e8","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=0ddcabd2acf4ac096bbe33f2911c9599
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel6
+        Id: g=732086d0708e728ed12dfff94c1ebb03
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=7a67a0db85fcdcb8a89c8881e47c1fc6
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=2f624b908b4bea1a734ddd9a16947b46
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"9e5d9bf0afb62317f9a11d479262dde2","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=0b12240df3cd42adc3f106482ae651a3
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel7
+        Id: g=bfe7412a5524e79e66e318bb9af2906f
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=a9b520412275282ba16d97c5bfec98f5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=f132571f292d6f86f409987387c3e9a4
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"d34b3a06ebe684fc0d3f2104cafde172","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=053756307f0277c45cdfe1affc790af1
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel8
+        Id: g=d29e0630ca21a8e0006bc0fb96690fdd
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=8b0c2bf970ee23243dd751823cd97eb4
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=3cecf94937856399a56703a99970bb56
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"052b77f76cc0c072ef3d4e12b9f517e8","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=436900f9b34737a6e1cbc19eea6e7fa5
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel9
+        Id: g=4374e165285c35cd428ddf752233edc5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=4cd58fe6e897b3ee23b08b039094dc8d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=e673ef4992270bff4b9aac580660f6db
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"5c00d345b68a5115afba7958a073c44f","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=98a261136b26cb8417f66a79d79f98f9
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel10
+        Id: g=21866630bebe701042aa855e0ff8385f
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=100aef0ba23f5f6b48f0adff7d84505a
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=90a71cf444c3f8b57780ef0b69e477e5
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"4d4333ad6dff25b2d93d1b92f1da31fa","Namespace":7}
+          Children:
+          - Name: Kind
+            Id: g=09cebc0772bacdd3e2ec21c3c5033486
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+    - Name: CurrentPanel
+      Id: g=28bd22b21abb1aa95f82a0c2bee3921a
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Id: g=f7611d963f7fa0db51954428c6fee0a1
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":6,"Namespace":3}
+    - Name: CurrentTabIndex
+      Id: g=a88f60d15066d8be8e52b4722bdf9f4f
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Class: Reference
+      Target: ns=3;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=3;i=1183
+      Direction: Forward
+    - Name: Width
+      Id: g=03df82e3ab2da68dce791f3bc31177c3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 564.0
+    - Name: Height
+      Id: g=8394efdb3047acc3ba0e94598e213c53
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Id: g=0eb650bfb1f292869acdbe8fcf7f3b3e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=6bbed6fe16cf521eca10a6c3c187bdc8
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: TopMargin
+      Id: g=51dc6a1df6abf47a579ecefa3f7cb72d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 55.0
+- File: Screens/Screens.yaml
+- File: Pages/Pages.yaml
+- Name: WebPresentationEngine
+  Id: g=76e485ba248f6819eb725f760845c197
+  Type: ns=23;PresentationEngine
+  Children:
+  - Name: Protocol
+    Id: g=3f30d7a397b6b43a09d0d593bb6535fb
+    Type: BaseDataVariableType
+    DataType: Protocol
+    Value: 0
+  - Name: IPAddress
+    Id: g=57288f2d402bd16a0911c3fd64611497
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0.0.0.0"
+  - Name: Port
+    Id: g=4a65bc6d28f045721d4ea75611942f91
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8443
+  - Name: StartWindow
+    Id: g=2edeb647f45c317d8268383704e43f3c
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"58f1fd3a671cea5e754a50d53fdafd9d","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=a9147b1fdd7cf2d64c6ecc84e7d23f29
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":12,"Namespace":3}
+  - Name: StyleSheet
+    Id: g=dacd4327a457bd472bc4d7e9a492fbff
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"c552e986fd4c64513d254a3ecdb4a234","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=123b5abbcab358fd5ab0fa446f984cfa
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":447,"Namespace":3}
+  - Name: StartingUser
+    Id: g=1245a768edc12ec5ba156198748899a8
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"Id":46,"Namespace":1}
+    Children:
+    - Name: Kind
+      Id: g=edaf587866791a22f551f261ab5ac06c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":14,"Namespace":1}
+  - Name: Sessions
+    Id: g=d24cdd382691fab245bb04d6a63c5a60
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Id: g=83919c62a9f749dd0f4241851688442a
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Id: g=fff7cd8e995f4cde7435d1df1b0cce31
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Id: g=c7ef3686d8352e03ba89ddbacb9d08e0
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: IsWeb
+        Id: g=e77fdd8900b3e3d6f8b931a8ab3fefee
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: User
+        Id: g=197e91c30d647a9e652de844e527fa53
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Id: g=b6e8dfdcc966106a1b5e31d0570ccb86
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+      - Name: ActualLocaleId
+        Id: g=12c7d0cfc662ec478ecf192d6a37c54f
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+        Value: ""
+      - Name: ActualLanguage
+        Id: g=02b97f73ba7ec66b555d6022dd4b6495
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+        Value: ""
+      - Name: ActualMeasurementSystem
+        Id: g=e062d254b8af37b40b4d5cb9253f8970
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+        Value: 0
+      - Name: TimeZoneOffset
+        Id: g=43c78543e3ec46f9a815902ae494faa0
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 
+         {
+          "TypeId": {
+           "Id": 8912
+          },
+          "Body": {
+           "offset": 0,
+           "daylightSavingInOffset": false
+          }
+         }
+      - Name: Groups
+        Id: g=448eb208d6b31ce1a6b069616488821c
+        Type: BaseObjectType
+      - Name: Roles
+        Id: g=a2fad56c547096c6eb2fa5c2a5420789
+        Type: BaseObjectType
+      - Name: Rights
+        Id: g=4a853ac032dcf777a87e96c17ed9fd09
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Id: g=8d0cb200ff0e5733cf3442108b7450d2
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+  - Name: MaxNumberOfConnections
+    Id: g=5e6109889788fa578defe676a819049a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 3
+- File: Template/Template.yaml
